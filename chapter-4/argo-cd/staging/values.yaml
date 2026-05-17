@@ -1,4 +1,7 @@
 conference-app:
+  services:
+    frontend:
+      debug: true
   postgresql:
     image:
       registry: docker.io
